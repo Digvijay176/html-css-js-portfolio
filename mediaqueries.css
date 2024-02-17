@@ -6,3 +6,225 @@
         display: flex;
     }
 }
+
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 90%;
+    }
+    #profile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* height: calc(96vh - 70px); */
+        height: fit-content;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    section{
+        margin: 0rem;
+        height: fit-content;
+    }
+    #about{
+        height: fit-content;
+        background: linear-gradient(white,rgba(58, 74, 143, 0.167),white);
+    }
+    .section__pic-container{
+        height: 30vh;
+        width: fit-content;
+        border-radius: 150px;
+        margin:auto 0;
+        box-shadow: none;
+    }
+    .section_text{
+        width: 100%;
+    }
+    .arrow{
+        display: none;
+    }
+    .footer-div-one{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section-container{
+        display: flex;
+        height: fit-content;
+        flex-wrap: wrap;
+        padding: .1rem;
+    }
+    .text-container{
+        margin: .5rem;
+    }
+    .section-container{
+        gap: 2rem;
+        display: flex;
+        align-items: center;
+    }
+    .section__pic-container{
+        height: 25vh;
+    }
+    .section__pic-container img{
+        height: 100%;
+        width: auto;   
+    }
+    .about-containers{
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        padding: .5rem;
+    }
+    .details-container{
+        width: 100%;
+        padding: .5rem;
+    }
+    .about-details-container{
+        height: 100%;
+        padding: .7rem;
+    }
+    .experience-details-container{
+        padding: 1rem;
+    }
+    .project__img{
+        background-color: seagreen;
+        height: 25vh;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+    }
+    .footer-div-two{
+        border-top: .1rem solid darkorange;
+        padding: .5rem;
+    }
+    .social_media img{
+        height: 1.5 rem;
+    }
+    .social_media{
+        margin: 2rem;
+    }
+    .options{
+        margin-top: 1rem;
+    }
+    .options ul li a{
+        color: white;
+    }
+    .logo h4 {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+
+
+@media  screen and (max-width:600px) {
+    html{
+        font-size: 80%;
+    }
+    #profile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* height: calc(96vh - 70px); */
+        height: fit-content;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    section{
+        margin: 0rem;
+        height: fit-content;
+    }
+    #about{
+        height: fit-content;
+        background: linear-gradient(white,rgba(58, 74, 143, 0.167),white);
+    }
+    .section__pic-container{
+        height: 30vh;
+        width: fit-content;
+        border-radius: 150px;
+        margin:auto 0;
+        box-shadow: none;
+    }
+    .section_text{
+        width: 100%;
+    }
+    .arrow{
+        display: none;
+    }
+    .footer-div-one{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section-container{
+        display: flex;
+        flex-direction: column;
+        padding: .1rem;
+    }
+    .text-container{
+        margin: .5rem;
+    }
+    .section-container{
+        gap: 2rem;
+        display: flex;
+        align-items: center;
+    }
+    .section__pic-container{
+        height: 25vh;
+    }
+    .section__pic-container img{
+        height: 100%;
+        width: auto;   
+    }
+    .about-containers{
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        padding: .5rem;
+    }
+    .details-container{
+        width: 100%;
+        padding: .5rem;
+    }
+    .about-details-container{
+        height: 100%;
+        padding: .7rem;
+    }
+    .experience-details-container{
+        padding: 1rem;
+    }
+    .project__img{
+        background-color: seagreen;
+        height: 25vh;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+    }
+    .footer-div-two{
+        border-top: .1rem solid darkorange;
+        padding: .5rem;
+    }
+    .social_media img{
+        height: 1.5 rem;
+    }
+    .social_media{
+        margin: 2rem;
+    }
+    .options{
+        margin-top: 1rem;
+    }
+    .options ul li a{
+        color: white;
+    }
+    .logo h4 {
+        font-size: 1rem;
+    }
+
+}
